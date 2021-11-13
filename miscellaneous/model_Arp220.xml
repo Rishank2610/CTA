@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<source_library title="source library">
+  <!-- Extragalactic source templates from the SFS KSP -->
+  <!-- Arp 220 -->
+  <source name="Arp220" type="PointSource" tscalc="1">
+    <spectrum type="PowerLaw">
+      <parameter name="Prefactor" value="6.0" error="0" scale="1e-20" min="0" free="1" />
+      <parameter name="Index" value="2.2" error="-0" scale="-1" min="-4.54545" max="4.54545" free="1" />
+      <parameter name="Scale" value="1" scale="1e+06" free="0" />
+    </spectrum>
+    <spatialModel type="SkyDirFunction">
+      <parameter name="RA" value="233.738" scale="1" free="0" />
+      <parameter name="DEC" value="23.503" scale="1" free="0" />
+    </spatialModel>
+  </source>
+</source_library>
